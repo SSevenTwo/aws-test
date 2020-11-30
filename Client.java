@@ -25,7 +25,7 @@ public class Client {
 
         System.out.println("Server message: " + response);
         
-        //socket.close();
+        socket.close();
         
     }
 }
